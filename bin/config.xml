@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<network>
+		<!-- .onion service URL needs trailing slash! -->
+		<anonhost><![CDATA[http://fhsvke3akisdzw2p.onion/]]></anonhost>
+		<anonproxy><![CDATA[127.0.0.1:9050]]></anonproxy>		
+	</network>
+	<icons>
+		<!-- symbols must be 0 indexed! -->
+		<icon name="Big Win" symbol="0"><![CDATA[./icons/bigwin.png]]></icon>
+		<icon name="Cherries" symbol="1"><![CDATA[./icons/cherries.png]]></icon>
+		<icon name="Lemon" symbol="2"><![CDATA[./icons/lemon.png]]></icon>
+		<icon name="Orange" symbol="3"><![CDATA[./icons/orange.png]]></icon>
+		<icon name="Plum" symbol="4"><![CDATA[./icons/plum.png]]></icon>
+		<icon name="Watermelon" symbol="5"><![CDATA[./icons/watermelon.png]]></icon>		
+		<icon name="Banana" symbol="6"><![CDATA[./icons/banana.png]]></icon>
+		<icon name="Guy Fawkes" symbol="7"><![CDATA[./icons/guyfawkes.png]]></icon>
+		<icon name="Bars" symbol="8"><![CDATA[./icons/bars.png]]></icon>
+		<icon name="Seven" symbol="9"><![CDATA[./icons/7.png]]></icon>
+		<icon name="(blank)" symbol="10"><![CDATA[./icons/blank.png]]></icon>
+	</icons>
+	<audio>		
+		<sound id="spinStart"><![CDATA[./audio/spinStart.mp3]]></sound>
+		<sound id="spinStop"><![CDATA[./audio/spinStop.mp3]]></sound>
+		<sound id="reelSpin"><![CDATA[./audio/reelSpin.mp3]]></sound>		
+		<sound id="win"><![CDATA[./audio/win.mp3]]></sound>
+		<sound id="bigWin"><![CDATA[./audio/bigWin.mp3]]></sound>
+		<sound id="splash1"><![CDATA[./audio/splash1.mp3]]></sound>
+		<sound id="splash2"><![CDATA[./audio/splash2.mp3]]></sound>
+		<sound id="splash3"><![CDATA[./audio/splash3.mp3]]></sound>
+		<sound id="splash4"><![CDATA[./audio/splash4.mp3]]></sound>
+		<sound id="splash5"><![CDATA[./audio/splash5.mp3]]></sound>
+		<sound id="splash6"><![CDATA[./audio/splash6.mp3]]></sound>
+		<sound id="splash7"><![CDATA[./audio/splash7.mp3]]></sound>
+		<sound id="splash8"><![CDATA[./audio/splash8.mp3]]></sound>
+		<sound id="splash9"><![CDATA[./audio/splash9.mp3]]></sound>
+		<sound id="drip"><![CDATA[./audio/drip.mp3]]></sound>
+	</audio>
+	<reels>
+		<reel id="0">			
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>5</symbol> <!-- watermelon -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>4</symbol> <!-- plum -->
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>0</symbol> <!-- big win -->
+			<symbol>3</symbol> <!-- orange -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>6</symbol> <!-- banana -->			
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>5</symbol> <!-- watermelon -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>10</symbol> <!-- blank -->	
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>3</symbol> <!-- orange -->			
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>4</symbol> <!-- plum -->
+			<symbol>7</symbol> <!-- guy fawkes -->			
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>2</symbol> <!-- lemon -->
+			<symbol>5</symbol> <!-- watermelon -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>6</symbol> <!-- banana -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>6</symbol> <!-- banana -->
+			<symbol>7</symbol> <!-- guy fawkes -->			
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>5</symbol> <!-- watermelon -->
+			<symbol>8</symbol> <!-- bars -->			
+			<symbol>1</symbol> <!-- cherries -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>10</symbol> <!-- blank -->
+		</reel>
+		<reel id="1">			
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>6</symbol> <!-- banana -->
+			<symbol>1</symbol> <!-- cherries -->			
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>2</symbol> <!-- lemon -->
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>6</symbol> <!-- banana -->
+			<symbol>3</symbol> <!-- orange -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>8</symbol> <!-- bars -->			
+			<symbol>4</symbol> <!-- plum -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>5</symbol> <!-- watermelon -->
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>0</symbol> <!-- big win -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>9</symbol> <!-- seven -->			
+			<symbol>6</symbol> <!-- banana -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>9</symbol> <!-- seven -->				
+			<symbol>2</symbol> <!-- lemon -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>4</symbol> <!-- plum -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>6</symbol> <!-- banana -->
+			<symbol>3</symbol> <!-- orange -->
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>5</symbol> <!-- watermelon -->			
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>10</symbol> <!-- blank -->
+		</reel>
+		<reel id="2">
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>1</symbol> <!-- cherries -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>5</symbol> <!-- watermelon -->
+			<symbol>2</symbol> <!-- lemon -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>8</symbol> <!-- bars -->			
+			<symbol>7</symbol> <!-- guy fawkes -->			
+			<symbol>6</symbol> <!-- banana -->
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>8</symbol> <!-- bars -->	
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>3</symbol> <!-- orange -->
+			<symbol>4</symbol> <!-- plum -->
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>9</symbol> <!-- seven -->						
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>2</symbol> <!-- lemon -->			
+			<symbol>1</symbol> <!-- cherries -->
+			<symbol>4</symbol> <!-- plum -->			
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>5</symbol> <!-- watermelon -->
+			<symbol>10</symbol> <!-- blank -->			
+			<symbol>6</symbol> <!-- banana -->
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>9</symbol> <!-- seven -->			
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>0</symbol> <!-- big win -->
+			<symbol>8</symbol> <!-- bars -->			
+			<symbol>9</symbol> <!-- seven -->
+			<symbol>3</symbol> <!-- orange -->
+			<symbol>7</symbol> <!-- guy fawkes -->
+			<symbol>9</symbol> <!-- seven -->			
+			<symbol>8</symbol> <!-- bars -->
+			<symbol>4</symbol> <!-- plum -->
+			<symbol>10</symbol> <!-- blank -->
+			<symbol>9</symbol> <!-- seven -->
+		</reel>
+	</reels>
+	<layout>
+		<image id="background" x="0" y="0"><![CDATA[./images/background.png]]></image>
+		<reels x="230" y="215" width="480" height="430" rotationX="0" rotationY="0" rotationZ="0" hspacing="20" mask="on">
+			<background x="205" y="179"><![CDATA[./images/drain.png]]></background>			
+		</reels>		
+		<image id="foreground" x="0" y="0"><![CDATA[./images/foreground.png]]></image>
+		<!-- image id="logo" x="630" y="10"><![CDATA[./images/logo.png]]></image -->
+		<image id="logo" x="10" y="10"><![CDATA[./images/logo.png]]></image>
+		<toggle id="autoselect" x="770" y="500" width="200" height="60">Auto-select results</toggle>
+		<toggle id="soundToggle" x="770" y="525" width="200" height="60">Enable sounds</toggle>
+		<image id="paytable" x="695" y="-10"><![CDATA[./images/paytable.png]]></image>
+		<resultselector id="selector0" reel="0" x="860" y="60" width="150" height="200"/>
+		<resultselector id="selector1" reel="1" x="860" y="270" width="150" height="200"/>
+		<resultselector id="selector2" reel="2" x="860" y="480" width="150" height="200"/>		
+		<button id="spinButton" x="660" y="590">
+			<up><![CDATA[./images/btn_spin_up.png]]></up>
+			<over><![CDATA[./images/btn_spin_over.png]]></over>
+			<down><![CDATA[./images/btn_spin_down.png]]></down>
+		</button>
+		<button id="submitButton" x="660" y="590">
+			<up><![CDATA[./images/btn_submit_up.png]]></up>
+			<over><![CDATA[./images/btn_submit_over.png]]></over>
+			<down><![CDATA[./images/btn_submit_down.png]]></down>
+		</button>
+		<button id="addFunds" x="540" y="642">
+			<up><![CDATA[./images/btn_add_funds_up.png]]></up>			
+			<over><![CDATA[./images/btn_add_funds_over.png]]></over>			
+			<down><![CDATA[./images/btn_add_funds_down.png]]></down>			
+		</button>	
+		<text type="dynamic" x="70" y="645" width="400" height="40" size="24" font="_sans">Balance:</text>
+		<text type="dynamic" x="80" y="675" width="400" height="40" size="24" font="_sans">Shares:</text>
+		<text id="balance" type="dynamic" x="180" y="645" width="400" height="40" size="24" font="_sans">0</text>
+		<text id="shares" type="dynamic" x="180" y="675" width="400" height="40" size="24" font="_sans">0</text>
+		<button id="helpButton" x="315" y="670">		
+			<up><![CDATA[./images/btn_help_up.png]]></up>			
+			<over><![CDATA[./images/btn_help_over.png]]></over>			
+			<down><![CDATA[./images/btn_help_down.png]]></down>			
+		</button>
+		<button id="payoutAddressToggle" x="425" y="670">		
+			<up><![CDATA[./images/btn_wallet_up.png]]></up>			
+			<over><![CDATA[./images/btn_wallet_over.png]]></over>			
+			<down><![CDATA[./images/btn_wallet_down.png]]></down>			
+		</button>		
+		<image id="shareholder_icon" x="30" y="235"><![CDATA[./images/shareholder_icon.png]]></image>
+		<progressbar id="thresholdPercent" x="60" y="305" width="20" height="290"/>		
+		<text id="payoutAddress" type="input" x="80" y="710" width="880" height="50" size="38" font="_sans" align="center" />
+		<dialog id="warning">
+			<background x="0" y="0"><![CDATA[./images/warning_dialog.png]]></background>
+		</dialog>
+		<dialog id="info">
+			<background x="0" y="0"><![CDATA[./images/info_dialog.png]]></background>
+		</dialog>
+	</layout>
+	<help><![CDATA[./help.html]]></help>
+</config> 

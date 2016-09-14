@@ -1,0 +1,55 @@
+body 
+{
+   color: #000000;
+   background: #FFFFF0;
+   font-family: "Century Gothic", "Arial", "sans-serif", "_sans";
+}
+
+#header_img
+{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#inline_img
+{
+	display: inline-block;
+}
+
+#table_img
+{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.main_header
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size: 36px;
+	font-weight:bolder; 
+}
+
+.section_header
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size: 24px;
+	font-weight:bolder; 
+}
+
+.normal
+{
+	margin-left:0;
+	font-size: 14px;
+}
+
+.centered
+{	
+	text-align:center;
+	font-size: 14px;
+}

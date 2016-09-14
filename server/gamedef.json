@@ -1,0 +1,40 @@
+{ 	"ID": 1,
+	"name": "Golden Faucet",
+	"symbols":[
+				{"name":"Big Win"},
+				{"name":"Cherries"},
+				{"name":"Lemon"},
+				{"name":"Orange"},
+				{"name":"Plum"},
+				{"name":"Watermelon"},
+				{"name":"Banana"},
+				{"name":"Guy Fawkes"},
+				{"name":"Bars"},
+				{"name":"Seven"},
+				{"name":"(blank)"}
+			],
+	"reels":[
+				[8,5,9,4,10,8,0,3,7,8,9,6,10,8,5,7,9,10,8,3,9,4,7,9,8,2,5,9,6,7,9,10,6,7,9,5,8,1,9,10],
+				[9,6,1,8,7,9,8,2,10,6,3,7,9,8,4,7,9,5,10,0,8,9,6,7,10,9,2,8,4,9,6,3,10,9,8,7,5,9,8,10],
+				[7,1,9,8,5,2,9,8,7,6,9,8,10,3,4,10,7,9,8,2,1,4,9,5,10,6,8,9,10,7,0,8,9,3,7,9,8,4,10,9]
+		  ],
+	"wins":[
+				{"name":"Big Wins", "multiplier":1000, "shares":0, "symbols":[0,0,0]},
+				{"name":"Cherries", "multiplier":500, "shares":0, "symbols":[1,1,1]},
+				{"name":"Lemons", "multiplier":250, "shares":0, "symbols":[2,2,2]},
+				{"name":"Oranges", "multiplier":100, "shares":0, "symbols":[3,3,3]},
+				{"name":"Plums", "multiplier":50, "shares":0, "symbols":[4,4,4]},
+				{"name":"Watermelons", "multiplier":25, "shares":0, "symbols":[5,5,5]},
+				{"name":"Bananas", "multiplier":10, "shares":0, "symbols":[6,6,6]},
+				{"name":"Guy Fawkes", "multiplier":0, "shares":9, "symbols":[7,-1,-1]},
+				{"name":"Guy Fawkes", "multiplier":0, "shares":9, "symbols":[-1,7,-1]},
+				{"name":"Guy Fawkes", "multiplier":0, "shares":9, "symbols":[-1,-1,7]},
+				{"name":"Bars", "multiplier":0, "shares":4, "symbols":[8,-1,-1]},
+				{"name":"Bars", "multiplier":0, "shares":4, "symbols":[-1,8,-1]},
+				{"name":"Bars", "multiplier":0, "shares":4, "symbols":[-1,-1,8]},
+				{"name":"Seven", "multiplier":0, "shares":1, "symbols":[9,-1,-1]},
+				{"name":"Seven", "multiplier":0, "shares":1, "symbols":[-1,9,-1]},
+				{"name":"Seven", "multiplier":0, "shares":1, "symbols":[-1,-1,9]}
+		  ]
+		
+}

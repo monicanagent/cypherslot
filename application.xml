@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/18.0">
+  <id>CSGoldenFaucet</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>GoldenFaucet</filename>
+  <name>Golden Faucet</name>
+  <initialWindow>
+    <title>Golden Faucet</title>
+    <content>application.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>false</maximizable>
+    <resizable>false</resizable>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <supportedProfiles>extendedDesktop</supportedProfiles>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android" />]]></manifestAdditions>
+  </android>
+  <icon>
+    <image16x16>icons/CS_GoldenFaucet16.png</image16x16>
+    <image48x48>icons/CS_GoldenFaucet48.png</image48x48>
+    <image128x128>icons/CS_GoldenFaucet128.png</image128x128>
+    <image144x144>icons/CS_GoldenFaucet144.png</image144x144>
+    <image512x512>icons/CS_GoldenFaucet512.png</image512x512>
+    <image32x32>icons/CS_GoldenFaucet32.png</image32x32>
+  </icon>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <customUpdateUI>false</customUpdateUI>
+</application>
